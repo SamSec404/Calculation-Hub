@@ -12,6 +12,13 @@ from Utils.history import clear_history
 from Utils.validator import get_number
 from Utils.validator import get_positive_integer
 
+from calculators.scientific import square_root
+from calculators.scientific import factorial
+from calculators.scientific import logarithm
+from calculators.scientific import sine
+from calculators.scientific import cosine
+from calculators.scientific import tangent
+
 
 def get_numbers():
 
