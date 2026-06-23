@@ -1,0 +1,9 @@
+# utils/constants.py
+
+PI = 3.14159265359
+
+KM_TO_MILES = 0.621371
+
+KG_TO_POUNDS = 2.20462
+
+FAHRENHEIT_OFFSET = 32
