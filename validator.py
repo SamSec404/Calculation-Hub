@@ -8,8 +8,7 @@ def get_number(message):
             return float(input(message))
 
         except ValueError:
-
-            print("Invalid input. Please enter a number.")
+            print("Invalid input.")
 
 
 def get_positive_integer(message):
@@ -17,14 +16,12 @@ def get_positive_integer(message):
     while True:
 
         try:
-
             value = int(input(message))
 
             if value > 0:
                 return value
 
-            print("Please enter a positive integer.")
+            print("Enter a positive integer.")
 
         except ValueError:
-
-            print("Invalid input. Please enter an integer.")
+            print("Invalid input.")
