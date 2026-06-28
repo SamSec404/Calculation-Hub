@@ -13,9 +13,10 @@ def percentage_increase(old_value, new_value):
     if old_value == 0:
         return "Error: Old value cannot be zero"
 
-    increase = ((new_value - old_value) / old_value) * 100
-
-    return round(increase, 2)
+    return round(
+        ((new_value - old_value) / old_value) * 100,
+        2
+    )
 
 
 def percentage_decrease(old_value, new_value):
@@ -23,6 +24,7 @@ def percentage_decrease(old_value, new_value):
     if old_value == 0:
         return "Error: Old value cannot be zero"
 
-    decrease = ((old_value - new_value) / old_value) * 100
-
-    return round(decrease, 2)
+    return round(
+        ((old_value - new_value) / old_value) * 100,
+        2
+    )
