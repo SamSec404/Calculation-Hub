@@ -1,7 +1,4 @@
-# calculators/bmi.py
-
 def calculate_bmi(weight, height):
-
     if height <= 0:
         return "Error: Height must be greater than zero"
 
@@ -9,9 +6,7 @@ def calculate_bmi(weight, height):
 
     return round(bmi, 2)
 
-
 def bmi_category(bmi):
-
     if bmi < 18.5:
         return "Underweight"
 
@@ -22,3 +17,5 @@ def bmi_category(bmi):
         return "Overweight"
 
     return "Obese"
+
+
