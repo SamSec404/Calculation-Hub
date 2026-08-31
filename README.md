@@ -211,7 +211,7 @@ Instead of building everything at once, Calculation Hub is developed incremental
 
 ## 👨‍💻 Author
 
-**Malik Muhammad Sanaullah**
+**Mak Sam**
 
 Computer Science Student
 
