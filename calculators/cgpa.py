@@ -5,3 +5,4 @@ def calculate_cgpa(gpas):
     return round(sum(gpas)/len(gpas), 2)
 
 
+
