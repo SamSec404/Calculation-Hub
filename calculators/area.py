@@ -1,16 +1,16 @@
 import math
 
 def rectangle_area(length, width):
-    return length * width
+    return length*width
 
 def square_area(side):
-    return side * side
+    return side*side
 
 def circle_area(radius):
-    return round(math.pi * radius * radius, 2)
+    return round(math.pi*radius*radius, 2)
 
 def triangle_area(base, height):
-    return 0.5 * base * height
+    return 0.5*base*height
 
 
 
