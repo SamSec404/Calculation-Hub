@@ -1,5 +1,5 @@
 def calculate_bmi(weight, height):
-    if height <= 0:
+    if height<=0:
         return "Error: Height must be greater than zero"
 
     bmi=weight/(height**2)
@@ -17,6 +17,5 @@ def bmi_category(bmi):
         return "Overweight"
 
     return "Obese"
-
 
 
